@@ -1,0 +1,6 @@
+{
+    "logLevel": 2,
+    "dataPath": "~/.modbus_bms",
+    "theme": "dark",
+    "language": "en"
+}

@@ -1,5 +1,95 @@
-node_modules/
-.next/
-dist/
+```
+# Build artifacts
 build/
+cmake-build-*/
+Makefile
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Qt/QML specific
+*.qm
+*.qrc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+QMakefile
+.qmake.stash
+.qmake.conf
+
+# Dependencies
+node_modules/
+vendor/
+
+# Logs
 *.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# C/C++
+Debug/
+Release/
+*.out
+*.iobj
+*.ipdb
+*.pdb
+*.ilk
+*.manifest
+*.exp
+*.lib
+*.sln
+*.vcxproj*
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.pidb
+*.svclog
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+*.jar
+*.war
+*.zip
+*.tar
+*.gz
+*.tgz
+*.rar
+*.7z
+```.next/
+dist/

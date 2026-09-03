@@ -1,0 +1,16 @@
+{
+    "devices": [
+        {
+            "deviceId": "switch_01",
+            "name": "Living Room Switch",
+            "type": "switch",
+            "protocol": "modbus_tcp",
+            "ip": "192.168.1.100",
+            "port": 502,
+            "unitId": 1,
+            "room": "Living Room",
+            "description": "4-Gang Light Switch",
+            "channelCount": 4
+        }
+    ]
+}
